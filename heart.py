@@ -49,7 +49,7 @@ st.dataframe(features,width=1000)
 
 if st.button('prediction on platelets'):
     prediction = model.predict(input_features)
-    st.write('The prediction on the platelets for this patient is:', prediction[0])
+    st.write('The prediction on the platelets for this patient is:', prediction[0][0])
 
 
 
