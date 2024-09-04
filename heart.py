@@ -42,7 +42,7 @@ features = {'age': [age],
              'smoking':[smoking],
             'time': [time],
              'DEATH_EVENT' : [DEATH_EVENT ]}
-input_features = pd.DataFrames(features)
+input_features = pd.DataFrame(features)
 st.dataframe(features,width=1000)
 
 #prediction code
